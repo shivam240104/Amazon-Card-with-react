@@ -3,7 +3,7 @@ import Price from "./Price"
 
 export default function productTab({title, idx, price, features}){
 let oldPrice=["12,495", "11,900", "1,599", "599"];
-let newPrice=["8,9959", "9,199", "899", "278"];
+let newPrice=["8,995", "9,199", "899", "278"];
 
     return(
        <div className="product">
