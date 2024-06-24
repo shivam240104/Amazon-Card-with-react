@@ -10,6 +10,8 @@ function App() {
  }
 
   return (
+    <>
+    <h2>Blockbuster Deals | Shop Now</h2>
     <div style={style} >
         <ProductTab title="Logitech MX Master" idx={0} />
             <ProductTab title="Apple Pencil (2nd Gen" idx={1} />
@@ -17,7 +19,7 @@ function App() {
             <ProductTab title="Petronics Toad 23" idx={3} />
     </div>
    
-    
+    </>
     
   )
 }
