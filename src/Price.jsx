@@ -1,9 +1,22 @@
 export default function Price({oldPrice, newPrice}){
+    let oldStyle={
+        textDecorationLine:"line-through",
+    };
+    let newStyle={
+        fontWeight:"bold",
+    }
+    let styles={
+        backgroundColor:"#e0c367",
+        height:"30px",
+        borderBottomLeftRadius:"14px",
+        borderBottomRightRadius:"14px",
+
+    }
     return(
-        <div>
-            <span>{oldPrice}</span>
+        <div style={styles} >
+            <span style={oldStyle} >{oldPrice}</span>
             &nbsp; &nbsp;
-            <span>{newPrice}</span>
+            <span style={newStyle} >{newPrice}</span>
           
         </div>
     )
